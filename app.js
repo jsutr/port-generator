@@ -34,7 +34,7 @@ function init() {
             },
             {
                 type: "input",
-                name: "isntall",
+                name: "install",
                 message: "Please enter installation instructions"
             },
             {
