@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/jsutr/port-generator/issues"
   },
-  "homepage": "https://github.com/jsutr/port-generator#readme"
+  "homepage": "https://github.com/jsutr/port-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.2"
+  }
 }
