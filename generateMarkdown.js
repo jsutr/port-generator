@@ -1,10 +1,9 @@
 // this file will generate the markdown for the READme
 function generateMarkdown(data) {
     return `# ${data.title}
+    under ${data.license} licensing
 
     ---
-
-    <a href="https://img.shields.io/badge/License-${data.license[0]}-brightgreen"><img src="https://img.shields.io/badge/License-${data.license[0]}-brightgreen"></a>
 
     ## Table of Contents
     - [Description](#description)
@@ -15,7 +14,7 @@ function generateMarkdown(data) {
     - [Contact Info](#contact-info)
 
     ### Description
-    ${data.descripiton}
+    ${data.summary}
 
     ### Install
     ${data.install}
