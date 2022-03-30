@@ -2,6 +2,7 @@
 const inquirer = require('inquirer');
 const path = require('path');
 const fs = require('fs');
+var generateMarkdown = require("./generateMarkdown.js")
 
 // write to ReadME file
 function writeToFile(fileName, data) {
